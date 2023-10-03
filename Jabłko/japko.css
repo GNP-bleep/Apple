@@ -16,6 +16,7 @@ body {
     background-color:rgb(24, 22, 22);
     align-items:center;
     position: sticky;
+    opacity: 0.9;
     
 }
 .nav ul{
@@ -36,6 +37,10 @@ body {
     color:rgb(180, 159, 159);
     font-size: 11px;
 }
+span {
+    position:sticky;
+    top: 0;
+  }
 .main {
     padding:0px;
     margin:0px;
@@ -124,26 +129,35 @@ h2 {
     height:600px;
     background-image: url(ipad.png);
     background-repeat: no-repeat;
-    background-size: 140% 700px;
+    background-size: 140% 600px;
     background-position-x:center;
     margin-left: 10px;
     margin-right:5px;
     margin-bottom:5px;
     margin-top:5px;
 }
+.m2 {
+    display:flex;
+    flex-direction: row;
+}
+.m2 img {
+    margin-top: 18px;
+    margin-left: 10px;
+}
 .container h2 {
     font-size: 18px;
+    
 }
 .container .nag {
     font-size: 25px;
+    padding-bottom: 0px;
 }
 .container42 {
-    width:50%;
     width:50%;
     height:600px;
     background-image: url(watchultra.png);
     background-repeat: no-repeat;
-    background-size: 140% 700px;
+    background-size: 140% 600px;
     background-position-x:center;
     margin-left: 5px;
     margin-right:5px;
@@ -156,11 +170,10 @@ h2 {
 }
 .container43 {
     width:50%;
-    width:50%;
     height:600px;
     background-image: url(airpods.png);
     background-repeat: no-repeat;
-    background-size: 140% 700px;
+    background-size: 140% 600px;
     background-position-x:center;
     margin-left: 10px;
     margin-right:5px;
@@ -169,11 +182,10 @@ h2 {
 }
 .container44 {
     width:50%;
-    width:50%;
     height:600px;
     background-image: url(backtoschool.png);
     background-repeat: no-repeat;
-    background-size: 140% 700px;
+    background-size: 140% 600px;
     background-position-x:center;
     margin-left: 5px;
     margin-right:5px;
@@ -190,11 +202,10 @@ h2 {
 }
 .container45 {
     width:50%;
-    width:50%;
     height:600px;
     background-image: url(macbook.png);
     background-repeat: no-repeat;
-    background-size: 140% 700px;
+    background-size: 140% 600px;
     background-position-x:center;
     margin-left: 10px;
     margin-right:5px;
@@ -211,11 +222,10 @@ h2 {
 }
 .container46 {
     width:50%;
-    width:50%;
     height:600px;
     background-image: url(trade.png);
     background-repeat: no-repeat;
-    background-size: 140% 700px;
+    background-size: 140% 600px;
     background-position-x:center;
     margin-left: 5px;
     margin-right:5px;
@@ -234,18 +244,38 @@ footer {
     align-items: center;
     flex-direction:column;
 }
-.tekstF {
+.textF0 {
     width:60%;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+}
+.tekstF1 {
     text-align:left;
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.tekstF2 {
+    text-align:left;
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.tekstF3 {
+    text-align:left;
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-top: 4px;
 }
 .info0 {
     display: flex;
     flex-direction: row;
-    
+    font-size:15px;
 }
 .info1 ul {
     list-style: none;
-    margin-right: 35px;
+    margin-right: 20px;
     color:rgb(65, 66, 66);
 }
 .info2 ul {
@@ -270,6 +300,12 @@ footer {
     margin-right: 120px;
     color:rgb(65, 66, 66);
 }
-
-
-
+.stopa0 {
+    text-align:left;
+}
+.stopa {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
